@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>片桐悠の自己紹介</title>
+    <meta charset="utf-8" />
+    <link rel="icon" href="favicon.ico">
+  </head>
+  
+  <body>
+    <header>
+      <div class="containaer">
+    <h1><img src="myportfolio.png" width="120" height="160" algin="left" alt="harukaアイコン"><img src="favicon.ico"　width="30" height="30">ドリーの自己紹介ページ<img src="favicon.ico"　width="30" height="30"></h1>
+     </div>
+      <link rel="stylesheet" href="css/style.css"> 
+      <nav>
+        <ul>
+        <li class=”current”><a href=”#”>Home</a></li>
+        <li><a href=”#”>News</a></li>
+        <li><a href=”#”>About</a></li>
+        <li><a href=”#”>Access</a></li>
+        <li><a href=”#”>Blog</a></li>
+        </ul>
+        </nav>
+    <p> 最近プログラミング始めました！
+      <a href="https://gs4good.tokyo/" target="_brank">TSFCM（社会派エンジニア養成スクール）</a>で勉強中！
+    </p></header>
+
+    <!--memo-->
+    <h2>１．自己紹介</h2>
+    <p>
+      <div>
+        <ul>
+          <li>名　前　：　片桐　悠（かたぎり　はるか） </li>
+          <li>あだ名　：　はるか、ドリー（ファインディング・ニモの青い魚"ドリー"に似ていると言われます。笑）</li>
+          <li>出身地　：　東京</li>
+          <li>誕生日　：　１０月８日</li>
+        </ul>
+      </div>
+    </p>
+    <h2>２．今の仕事</h2>
+      <p>リース会社の人事部で<u>新卒採用と企画</u>を担当。<br />
+        今年は<i>働き方改革PJメンバー</i>として組織改革に奮闘予定。
+      </p>
+
+    <h2>３．趣味</h2>
+    <p>食べることと海外旅行。
+    </p>
+
+    <h3>★最後にTSFCMでの目標</h3>
+    <p>
+      <div>
+        <ul>
+          <li>スクールでやったことをドットインスクールで復習する！</li>
+          <li>プロトタイプ作成！</li>
+        </ul>
+      </div></p>
+
+      <html>
+        <head>
+          <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+        </head>
+      
+        <body>
+          <canvas id="myChart"></canvas>
+          <script>
+              var ctx = document.getElementById('myChart').getContext('2d');
+              var chart = new Chart(ctx, {
+                  // The type of chart we want to create
+                  type: 'line',
+      
+                  // The data for our dataset
+                  data: {
+                      labels: ['１月', '２月', '３月', '４月', '５月', '６月'],
+                      datasets: [{
+                          label: 'プログラミング成長（予定）',
+                          backgroundColor: 'rgb(225, 99, 132)',
+                          borderColor: 'rgb(255, 99, 132)',
+                          data: [0, 5, 10, 15, 25, 35]
+                      }]
+                  },
+      
+                  // Configuration options go here
+                  options: {}
+              });
+              var myLineChart = new Chart(ctx, {
+                  type: 'line',
+                  data: data,
+                  options: options
+              });
+              </script>
+        </body>
+
+  </body>
+</html>
